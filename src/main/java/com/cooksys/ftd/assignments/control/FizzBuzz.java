@@ -121,8 +121,7 @@ public class FizzBuzz {
     	String[] array = messages(1,115);
     	
     	for (int i=0; i<array.length; i++){
-    		if (array[i]!=null)
-    			System.out.println(array[i]);
+    		System.out.println(array[i]);
     	}
     }
 
